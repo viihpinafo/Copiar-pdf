@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #000000, #0d47a1);
+  color: #ffffff;
+  margin: 30px;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  position: relative;
+  padding-top: 20px;
+}
+
+header h1::before {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introducao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.introducao p {
+  width: 55%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.crianca.jpg {
+  width: 40%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.social a {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.botao {
+  display: inline-block;
+  background-color: #008080;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #006666;
+}
+.linha-bolinha {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.linha {
+  flex: 1;
+  height: 2px;
+  background-color: #ffffff; 
+}
+
+.bolinha {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #cccccc;
+}
