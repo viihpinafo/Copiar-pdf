@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Secundária - Front-End</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Eleve seu negócio digital a outro nível com um Front-End de qualidade!</h1>
+  </header>
+  <main>
+    <section class="introducao">
+      <p>
+        Olá! Sou Joana Santos, uma apaixonada desenvolvedora Front-End. Desde o meu primeiro código,
+        descobri a magia de transformar ideias em experiências digitais incríveis. Com expertise em 
+        React, HTML e CSS, busco unir criatividade e funcionalidade para ajudar pequenos negócios e 
+        criativos a se destacarem online. Se você deseja dar vida nova ao seu projeto com uma interface 
+        limpa e intuitiva, estou aqui para colaborar e tornar essa transformação possível!
+      </p>
+      <img src="imagem/crianca.jpg" alt="Menina" class="Crianca">
+    </section>
+    <section class="social">
+      <p>Me siga nas redes sociais:</p>
+      <a href="https://www.instagram.com/seuperfil" target="_blank" class="botao">Instagram</a>
+      <a href="https://github.com/seuusuario" target="_blank" class="botao">GitHub</a>
+    </section>
+    <a href="index.html" class="botao">Voltar para a Página Principal</a>
+  </main>
+  <div class="linha-bolinha">
+      <div class="linha"></div>
+      <span class="bolinha"></span>
+    </div>
+  <footer>
+    <p>&copy; 2025 - Desenvolvido por Vitória Pinafo</p>
+  </footer>
+</body>
+</html>
