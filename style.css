@@ -1,1 +1,123 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #000000, #0d47a1); 
+  color: #ffffff;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 50px;
+  position: relative;
+  padding-top: 20px;
+}
+
+h1::before {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+
+.conteudo {
+  width: 55%;
+  text-align: justify;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.imagem {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.invertido {
+  flex-direction: row-reverse;
+}
+
+.invertido .imagem {
+  justify-content: flex-start;
+}
+
+
+.imagem img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  height: auto;
+}
+
+
+.imagem img[src*="front"] {
+  max-width: 40%;
+}
+
+.imagem img[src*="pessoanote"] {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #cccccc;
+}
+
+.linha-bolinha {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.linha {
+  flex: 1;
+  height: 2px;
+  background-color: #ffffff; 
+}
+
+.bolinha {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.horizontal-dash {
+  width: 80%; 
+  border-top: 2px dashed #ffffff; 
+  margin: 20px auto; 
+}
+.botao {
+  display: inline-block;
+  background-color: #008080;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.botao:hover {
+  background-color: #006666;
+}
+
+
 
